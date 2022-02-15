@@ -31,6 +31,6 @@ https://cloud.google.com/artifact-registry/docs/helm/quickstart
 ## Setup networking
 
 ```shell
-kubectl expose deployment soketi-chart --port=8765 --target-port=9376 \
+kubectl expose deployment soketi-chart --port=6001 --target-port=6001 \
         --name=soketi-service --type=LoadBalancer
 ```
