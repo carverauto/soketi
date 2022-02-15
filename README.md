@@ -1,5 +1,7 @@
 # soketi setup
 
+https://cloud.google.com/artifact-registry/docs/helm/quickstart
+
 ## Create helm package
 ```
  helm package soketi
